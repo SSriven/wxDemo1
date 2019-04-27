@@ -1,0 +1,7 @@
+<view class="container" style="position: relative">
+    <cover-view class="btn" animation="{{animationData}}" catchtouchmove="buttonMove" catchtouchstart="buttonStart" catchtouchend="buttonEnd" style="position: absolute;top:{{buttonTop}}px;left:{{buttonLeft}}px;">button</cover-view>
+</view>
+<!-- <view class="canvas" bindtouchmove='canvasmove'>
+  <i class="dot" wx:for="{{seat}}" data-index="{{index}}" wx:key="{{index}}"
+   style="left:{{item.left}}px;top:{{item.top}}px"></i>
+</view> -->
